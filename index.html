@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+  
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Título da página -->
+    <title>Portfólio Beatriz Maenisi</title>
+
+    <!-- Favicon do site-->
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon" />
+
+    <!-- Fontes Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bibliotecas de ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- CABEÇALHO / NAVEGAÇÃO -->
+    <header>
+      <div class="container nav-wrapper">
+        <h1 class="logo">BEATRIZ<span class="realce">MAENISI</span></h1>
+
+        <!-- Menu mobile com checkbox -->
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+        <nav class="navbar">
+          <a href="#sobre">Sobre</a>
+          <a href="#skills">Skills</a>
+          <a href="#projetos">Projetos</a>
+          <!--<a href="#github">GitHub</a>-->
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO - Sessão de boas-vindas com animação de texto -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-img">
+          <img
+            src="assets/imgs/icon_perfil.png"
+            alt="Foto de perfil"
+            class="profile-img"
+          />
+        </div>
+        <div class="hero-text">
+          <h2><span class="typed-text" id="typed"></span></h2>
+          <p>
+            Sou Beatriz Maenisi, estudante de Ciência da Computação apaixonada 
+            por transformar dados em informações úteis. Meu foco é seguir carreira 
+            como Cientista de Dados, e, mesmo sem experiência formal, venho construindo 
+            projetos próprios para praticar meus conhecimentos. 
+            Estou sempre explorando novas ferramentas e técnicas para crescer como 
+            profissional e contribuir para o sucesso de equipes orientadas por dados.
+          </p>
+          <a href="#projetos" class="btn btn-primary">Ver meus projetos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MIM -->
+    <section id="sobre" class="section">
+      <div class="container about-text">
+        <h2 class="section-title">Sobre mim</h2>
+        <p class="section-text">
+          Sou estudante de Ciência da Computação, com objetivo de desenvolver minha carreira na área de dados, 
+          especialmente como Cientista de Dados. Possuo conhecimentos em Python, SQL (MySQL e SQL Server), 
+          Power BI e Pacote Office, aplicando essas ferramentas em projetos pessoais para análise e 
+          visualização de dados.         
+        </p>
+        <p class="section-text">
+          Atualmente atuo como voluntária de Suporte de TI no IDE (Instituição de Desenvolvimento Evangélico), 
+          onde organizo documentos e planilhas, pesquiso e implemento ferramentas para otimizar a rotina 
+          administrativa e ofereço suporte na comunicação institucional (E-mail e WhatsApp). 
+          Essa experiência tem fortalecido minhas habilidades de comunicação, trabalho em equipe e 
+          resolução de problemas.
+        </p>
+        <p class="section-text">
+          Meu foco é continuar aprendendo e aplicando soluções baseadas em dados para gerar 
+          insights e apoiar tomadas de decisão.
+        </p>
+      </div>
+    </section>
+
+    <!-- HABILIDADES / STACKS (Cards) -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <!-- Cada "skill-card" representa uma habilidade com ícone -->
+          <div class="skill-card">                 
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width=60 height=60 />           
+            <span>Python</span>
+          </div>
+          <div class="skill-card">
+             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" height="60" width="60"/>
+            <span>MySQL</span>
+          </div>
+          <div class="skill-card">
+             <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" height="60" width="60"/>
+            <span>SQL Server</span>
+          </div>
+          <div class="skill-card">
+           <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" height="60" width="60"/>
+            <span>Power BI</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Microsoft_Excel_2013-2019_logo.svg" height="60" width="60"/>
+            <span>Excel</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg" height="60" width="60"/>
+            <span>Word</span>
+          </div>
+          <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Microsoft_Office_PowerPoint_%282019–present%29.svg" height="60" width="60"/>
+            <span>PowerPoint</span>
+          </div>
+          </div>
+        </div>
+
+        <!-- Alternativa: Habilidades em formato de tags -->
+        <!-- <div class="skills-list-icons">
+          <span class="skill-tag"><i class="devicon-html5-plain colored"></i> HTML</span>
+          <span class="skill-tag"><i class="devicon-css3-plain colored"></i> CSS</span>
+          <span class="skill-tag"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+          <span class="skill-tag"><i class="devicon-typescript-plain colored"></i> TypeScript</span>
+          <span class="skill-tag"><i class="devicon-react-original colored"></i> React</span>
+          <span class="skill-tag"><i class="devicon-tailwindcss-plain colored"></i> Tailwind</span>
+          <span class="skill-tag"><i class="devicon-sass-original colored"></i> Sass</span>
+          <span class="skill-tag"><i class="devicon-git-plain colored"></i> Git</span>
+          <span class="skill-tag"><i class="devicon-github-original"></i> GitHub</span>
+          <span class="skill-tag"><i class="devicon-figma-plain colored"></i> Figma</span>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="section">
+      <div class="container">
+        <h2>Projetos</h2>
+        <div class="projetos-grid">
+          <!-- Cada projeto pode ter link para GitHub e Deploy -->
+          <!-- É só duplicar esse bloco e alterar os dados -->
+          <div class="projeto-card">
+            <img
+              src="assets/imgs/projeto1.png"
+              alt="Print do projeto 1"
+            />
+            <h3>Dashboards</h3>
+            <p>
+              Conjunto de dashboards criados no Power BI com processo ETL, 
+              contemplando áreas como logística, financeiro e vendas.
+            </p>
+            <div class="btns">
+              <a href="https://github.com/beatrizmaenisi/dashboards.git">Ver projeto</a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <img
+              src="assets/imgs/projeto2.png"
+              alt="Print do projeto 2"
+            />
+            <h3>Formulário de Classificação de cliente</h3>
+            <p>
+              Aplicação web que utiliza um modelo de machine learning
+              (Random Forest) para retornar uma classificação do cliente. 
+            </p>
+            <div class="btns">
+              <a href="https://github.com/beatrizmaenisi/formulario_IA.git">Ver projeto</a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <img
+              src="assets/imgs/projeto3.png"
+              alt="Print do projeto 3"
+            />
+            <h3>Dashboard Eletrodoméstico</h3>
+            <p>
+              Painel desenvolvido no Power BI com criação de medidas DAX
+              e múltiplos tipos de gráficos, permitindo uma análise mais detalhada
+              de vendas por categoria e desempenho por período. 
+            </p>
+            <div class="btns">
+              <a href="https://github.com/beatrizmaenisi/dashboard_eletrodomestico.git">Ver projeto</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO GITHUB (opcional para quem ainda não tem projetos) -->
+    <!-- <section id="github" class="section">
+      <div class="container">
+        <h2 class="section-title">Meus códigos no GitHub</h2>
+        <p class="section-subtitle">Tô começando minha jornada como dev e já estou praticando bastante! No meu GitHub você encontra exercícios, mini projetos e experiências enquanto aprendo e evoluo.</p>
+        <a href="https://github.com/seuusuario" target="_blank" class="btn btn-primary">
+          <i class="devicon-github-original"></i> Ver meu GitHub
+        </a>
+      </div>
+    </section> -->
+
+    <!-- CONTATO -->
+    <section id="contato" class="section">
+      <div class="container contato-card">
+        <h2>Contato</h2>
+        <p>Me chama no LinkedIn ou manda um e-mail 😊</p>
+        <div class="social-links">
+          <a href="https://github.com/beatrizmaenisi" class="btn-social">
+            <i class="devicon-github-original"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/beatriz-maenisi" class="btn-social">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=beatriz.maenisi@gmail.com" target="_blank" class="btn-social">
+            <i class="fas fa-envelope"></i> E-mail
+          </a>          
+        </div>
+      </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+      <p>
+        Aprendizado contínuo é a chave do futuro.
+      </p>
+    </footer>
+
+    <!-- SCRIPT: Animação Hello World na Hero -->
+    <script>
+      const text = "Hello, World!";
+      const typedEl = document.getElementById("typed");
+
+      let i = 0;
+      function digitar() {
+        if (i < text.length) {
+          typedEl.innerHTML += text.charAt(i);
+          i++;
+          setTimeout(digitar, 120);
+        }
+      }
+
+      window.addEventListener("DOMContentLoaded", digitar);
+    </script>
+  </body>
+</html>
