@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontes Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <!--FIM GOOGLE FONTS-->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- FIM BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
+
+    <title>Beatriz Maenisi</title>
+</head>
+<body>
+
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <h1 class="logo">BEATRIZ<span class="realce">MAENISI</span></h1>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobremim">Sobre</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#contatos">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div><!--brn-abrir-menu-->
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div><!--btn-fechar-->
+
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobremim">Sobre</a></li>
+                        <li><a href="#skill">Skills</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contatos">Contato</a></li>
+                    </ul>
+                </nav>
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section id="inicio" class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <p>Sou Beatriz Maenisi, estudante de Ciência da Computação apaixonada 
+                           por transformar dados em informações úteis. Meu foco é seguir carreira 
+                           como Cientista de Dados, e, mesmo sem experiência formal, venho construindo 
+                           projetos próprios para praticar meus conhecimentos. 
+                           Estou sempre explorando novas ferramentas e técnicas para crescer como 
+                           profissional e contribuir para o sucesso de equipes orientadas por dados.</p>
+
+                           <div class="btn-projetos">
+                            <a href="#projetos">
+                                <button>Ver meus projetos</button>
+                            </a>
+                           </div>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="assets/foto-perfil.png" class="borda" alt="Foto de perfil">
+                    </div><!--mg-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section id="sobremim" class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-sobre">
+                        <h2>Sobre mim</h2>
+                        <p>Sou estudante de Ciência da Computação, com objetivo de desenvolver minha carreira na área 
+                        de dados, especialmente como Cientista de Dados. Possuo conhecimentos em Python, SQL (MySQL e SQL Server),
+                        Power BI e Pacote Office, aplicando essas ferramentas em projetos pessoais para análise e visualização de dados.</p>
+                        <p> Atualmente atuo como voluntária de Suporte de TI no IDE (Instituição de Desenvolvimento Evangélico), 
+                        onde organizo documentos e planilhas, pesquiso e implemento ferramentas para otimizar a rotina 
+                        administrativa e ofereço suporte na comunicação institucional (E-mail e WhatsApp). 
+                        Essa experiência tem fortalecido minhas habilidades de comunicação, trabalho em equipe e 
+                        resolução de problemas.</p>
+                        <p> Meu foco é continuar aprendendo e aplicando soluções baseadas em dados para gerar 
+                        insights e apoiar tomadas de decisão.</p>
+                    </div><!--txt-sobre-->
+                    
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section id="skill" class="skills">
+            <div class="interface">
+                <h2 class="titulo">Skills</h2>
+                <div class="skills-grid">
+
+                    <!-- Cada "skill-card" representa uma habilidade com ícone -->
+                    <div class="skill-card">                 
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width=60 height=60 />           
+                        <h3>Python</h3>
+                    </div><!--Python-->
+                    <div class="skill-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" height="60" width="60"/>
+                        <h3>MySQL</h3>
+                    </div><!--MySQL-->
+                    <div class="skill-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png" height="60" width="60"/>
+                        <h3>SQL Server</h3>
+                    </div><!--SQL Server-->
+                    <div class="skill-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" height="60" width="60"/>
+                        <h3>Power BI</h3>
+                    </div><!--Power BI-->
+                    <div class="skill-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Microsoft_Excel_2013-2019_logo.svg" height="60" width="60"/>
+                        <h3>Excel</h3>
+                    </div><!--Excel-->
+                    <div class="skill-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg" height="60" width="60"/>
+                        <h3>Word</h3>
+                    </div><!--Word-->
+                    <div class="skill-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Microsoft_Office_PowerPoint_%282019–present%29.svg" height="60" width="60"/>
+                        <h3>PowerPoint</h3>
+                    </div><!--PowerPoint-->
+
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--skills-->
+
+        <section id="projetos" class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">Projetos</h2>
+                <div class="container">
+                    <div class="projetos-grid">
+                        <div class="projeto-card">
+                            <img src="assets/projeto1.png" alt="foto_projeto1">
+                            <h3>Dashboards</h3>
+                            <p>Conjunto de dashboards criados no Power BI com processo ETL, 
+                            contemplando áreas como logística, financeiro e vendas.</p>
+                            <div class="btn-projeto">
+                                <a href="https://github.com/beatrizmaenisi/dashboards.git">Ver projeto</a>
+                            </div><!--btn-projeto-->
+                        </div><!--Projeto1-->
+                        <div class="projeto-card">
+                            <img src="assets/projeto2.png" alt="foto_projeto2">
+                            <h3>Formulário de Classificação de cliente</h3>
+                            <p>Aplicação web que utiliza um modelo de machine learning
+                            (Random Forest) para retornar uma classificação do cliente.</p>
+                            <div class="btn-projeto">
+                                <a href="https://github.com/beatrizmaenisi/formulario_IA.git">Ver projeto</a>
+                            </div><!--btn-projeto-->
+                        </div><!--Projeto2-->
+                        <div class="projeto-card">
+                            <img src="assets/projeto3.png" alt="foto_projeto3">
+                            <h3>Dashboard Eletrodoméstico</h3>
+                            <p>Painel desenvolvido no Power BI com criação de medidas DAX
+                            e múltiplos tipos de gráficos, permitindo uma análise mais detalhada
+                            de vendas por categoria e desempenho por período. </p>
+                            <div class="btn-projeto">
+                                <a href="https://github.com/beatrizmaenisi/dashboard_eletrodomestico.git">Ver projeto</a>
+                            </div><!--btn-projeto-->
+                        </div><!--Projeto3-->
+                    </div><!--flex-->
+                </div><!--container-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section id="contatos" class="contato">
+            <div class="interface">
+                <div class="contato-card">
+                    <h2>Contato</h2>
+                    <p>Me chama no LinkedIn ou manda um e-mail 😊</p>
+                    <div class="social-links">
+                        <a href="https://github.com/beatrizmaenisi" class="btn-social">
+                            <i class="devicon-github-original"></i> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/beatriz-maenisi" class="btn-social">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=beatriz.maenisi@gmail.com" target="_blank" class="btn-social">
+                            <i class="fas fa-envelope"></i> E-mail
+                        </a>          
+                    </div><!--social-links-->
+                </div><!--container contato-card-->
+            </div><!--interface-->
+        </section><!--contato-->
+
+    </main>
+
+    <footer>
+        <div class="inteface">
+            <p>Aprendizado contínuo é a chave do futuro.</p>
+        </div><!--interface-->
+    </footer>
+</body>
+</html>
